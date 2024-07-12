@@ -8,10 +8,11 @@ const GameOption = ({img,name,rating}) => {
             <img src={img}  className="w-14 h-14 rounded-[12px] bg-contain bg-center"  />
         </div>
 
-        <div className="flex flex-col justify-center items-start">
+        <div className="flex flex-col justify-center items-start w-full">
             <h1 className="text-white font-semibold text-xl">{name}</h1>
             <h1 className="text-gray-600">{rating}</h1>
         </div>
+        <h1 className="text-white items-end">&#xFE19;</h1>
       </div>
     </>
   );

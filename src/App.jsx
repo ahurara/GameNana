@@ -10,10 +10,7 @@ function App() {
     <>
       <Navbar />
 
-      <div
-        className="bg-cover bg-center h-auto md:h-auto flex items-center justify-center "
-        style={{ backgroundImage: `url(${mainImg})` }}
-      >
+      <div className="bg-cover bg-center h-auto md:h-auto flex items-center justify-center "style={{ backgroundImage: `url(${mainImg})` }} >
         <MainScreenBanner />
       </div>
 
